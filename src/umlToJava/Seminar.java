@@ -1,3 +1,5 @@
+package umlToJava;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +16,10 @@ public class Seminar {
         this.program = program;
         this.attendanceList = new ArrayList<>();
         this.subjectList = new ArrayList<>();
+    }
+
+    public Teacher getTeacher() {
+        return teacher;
     }
 
     public int getTotalAttendance(List<Attendance> attendanceList){

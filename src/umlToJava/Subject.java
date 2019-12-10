@@ -1,3 +1,5 @@
+package umlToJava;
+
 public class Subject {
     private String name;
     private Seminar seminar;
