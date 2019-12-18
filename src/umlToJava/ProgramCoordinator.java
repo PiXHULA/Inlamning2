@@ -21,4 +21,14 @@ public class ProgramCoordinator {
     public void addTeacher(Teacher teacher){
         teacherList.add(teacher);
     }
+
+    public void showTeachersInProgram() {
+        for(Teacher t : teacherList){
+            System.out.println(t);
+        }
+    }
+
+    public Program getProgram() {
+        return program;
+    }
 }

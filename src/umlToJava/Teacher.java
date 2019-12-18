@@ -25,8 +25,11 @@ public class Teacher {
     }
 
     public Seminar getCurrentSeminar(){
-        return this.seminarList.get(0);
+        return this.seminarList.get(this.seminarList.size() - 1);
     }
 
-
+    @Override
+    public String toString() {
+        return "Lärarens namn: " + this.name;
+    }
 }
